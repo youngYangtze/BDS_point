@@ -305,7 +305,7 @@ y0=6.09252850388968e6
 z0=1.50463316777129e6
 
 epochs,times=read_file("CUSV_20212220_BDS_M0.5_I1.0_G2.0.txt")
-# cal(method=True)
+cal()
 
 # draw_pdf(Us)
 # x0,y0,z0,t,sigma,re,l=cal_epoch(epochs[0],0,0,0)# 定义初始x0 y0 z0
@@ -313,8 +313,8 @@ epochs,times=read_file("CUSV_20212220_BDS_M0.5_I1.0_G2.0.txt")
 # print(x1,y1,z1,t1,sigma1,l1)
 # print(re1)
 # cal_iter()
-xs,ys,zs,ts=cal_iter_all(epochs)
-print(ys.mean())
-print(np.std(ys, ddof = 1))
+# xs,ys,zs,ts=cal_iter_all(epochs)
+# print(ys.mean())
+# print(np.std(ys, ddof = 1))
 
 
