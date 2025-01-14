@@ -1,3 +1,5 @@
+# date: 2024/05
+
 import numpy as np  
 import math
 from draw_picture import *
